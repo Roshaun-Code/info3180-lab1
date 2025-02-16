@@ -3,9 +3,11 @@
 <head>
  <meta charset="UTF-8">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
  <h1>Roshaun Marshall</h1>
- <p>I am Roshaun. I am 21 years old and I like to code.</p>
+ <p>I am Roshaun. I am 21 years old. I like to code and play video games.</p>
+ <img src="{{ url_for('static', filename='witcher3_view.jpeg') }}" alt="My Image" class="my-image">
 </body>
 </html>

@@ -6,14 +6,15 @@ app = Flask(__name__)
 # Routing for your application.
 # Put your routes below this comment
 '''
-<<<<<<< HEAD
-=======
+
 @app.route('/')
 def home():
  return 'My home page'
 
->>>>>>> 047e6a5 (created my first Flask app)
 
+@app.route('/about')
+def about():
+ return render_template('about.html')
 
 @app.errorhandler(404)
 def page_not_found(error):

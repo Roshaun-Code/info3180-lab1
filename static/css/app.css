@@ -1,7 +1,12 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 16px;
   line-height: 1.5;
+  color: red;
+  .my-image {
+    width: 50%;
+    height: auto;
+}
 }
 
 .container {
